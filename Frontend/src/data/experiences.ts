@@ -4,32 +4,32 @@ const experiences: IExperienceItem[] = [
   {
     designation: "Mohammad Hamim",
     company: "Zhengzhou University",
-    startDate: "Feb 2022",
-    endDate: "",
-    isCurrentJob: true,
+    startDate: "202280090114",
+    endDate: "Software Engineer",
+    isCurrentJob: false,
     location: "Zhengzhou, Henan, China",
     shortDescription:
-      "I have a proven track record of success, having developed more than 5 web applications  that seamlessly integrate backend APIs.",
+      "Full Stack Developer | Expert in React.js, Next.js, Python Flask, and Java | Agile Enthusiast | Proven Problem Solver | Strong Documentation Skills",
     description:
-      "As a Full Stack Developer, I have a proven track record of success, having developed more than 5 web applications that seamlessly integrate backend APIs using modern tech stacks and adhering to the highest standards of clean code practices. My commitment to efficiency is reflected in my work, where I have streamlined workflows across various projects, eliminating redundant data requirements and significantly improving overall efficiency. One of my standout achievements includes achieving an impressive 80% faster website loading time. I accomplished this by optimizing images, minimizing main-thread work, and implementing robust SEO strategies to enhance user experience and website performance. In addition to my development skills, I've also demonstrated my expertise in both backend and frontend development by resolving over 100 bugs. My thorough and comprehensive code reviews showcase my dedication to delivering high-quality solutions that not only meet but exceed expectations. As a full-stack developer, I am passionate about driving innovation and excellence in every project I undertake.",
+      "A results-driven Full Stack Developer working remotely in Sweden and skills based in Zhengzhou, China, brings a skill set encompassing React.js, Python Flask, C++, and Java. With problem-solving and Git collaboration, he excels in Agile methodologies. Currently pursuing a B.Sc. in Software Engineering, I am committed to continuous learning and project success.",
   },
   {
     designation: "Md Raziul Hasan Nayon",
     company: "Zhengzhou University",
-    startDate: "May 2021",
-    endDate: "July 2022",
+    startDate: "202280090122",
+    endDate: "Software Engineer",
     isCurrentJob: false,
     location: "Remote",
     shortDescription:
-      "I had the invaluable opportunity to make a significant impact by revamping and enhancing more than three mobile apps using Flutter.",
+      "Machine Learning || Software Engineering Student at ZZU",
     description:
-      "As a Full Stack Development Intern, I had the invaluable opportunity to make a significant impact by revamping and enhancing more than three mobile apps using Flutter, showcasing my expertise in the field of mobile development. I played a pivotal role in the development process by deploying RESTful APIs, enabling seamless integration between mobile applications and servers, thereby enhancing the overall user experience and functionality of these apps. Furthermore, I leveraged my skills to integrate Google AdMob into these applications, strategically monetizing them and effectively boosting revenue generation. My contributions as an intern reflect my dedication to staying current with modern tech stacks and best practices, ultimately delivering meaningful results to the projects I worked on.",
+      "I am MD Raziul Hasan Nayon. I study Software Engineering at Zhengzhou University. I have good knowledge of programming. My skill are Machine Learning, Python ,Java, C Programming, Data Structures",
   },
   {
-    designation: "Web Development Intern",
-    company: "Career Corner Education Pvt Ltd",
-    startDate: "July 2021",
-    endDate: "Nov 2021",
+    designation: "Nishat Bin Md Harun Tamim",
+    company: "Zhengzhou University",
+    startDate: "202280090123",
+    endDate: "Software Engineering",
     isCurrentJob: false,
     location: "Remote",
     shortDescription:
