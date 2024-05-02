@@ -30,9 +30,8 @@ const HomeSection6 = ({ id }: { id?: string }) => {
           </GridBox>
 
           <p className="text-center mx-auto mt-16 text-2xl/6 font-semibold">
-            I&apos;m{" "}
-            <span className="text-[var(--primaryColor)]">available</span> for
-            freelancing.
+            We are{" "}
+            <span className="text-[var(--primaryColor)]">Still Working</span> on it.
           </p>
         </Column>
       </ConstraintedBox>

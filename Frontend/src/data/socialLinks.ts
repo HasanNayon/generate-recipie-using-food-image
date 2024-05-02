@@ -8,29 +8,23 @@ import {
 
 const socialLinks: ISocialLinkItem[] = [
   {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/company/nixlab-technologies",
-    icon: faLinkedin,
-    text: "nixlab-technologies",
+    name: "Mohammad Hamim",
+    url: "https://github.com/md-hameem",
+    icon: faGithub,
+    text: "Mohammad Hamim's GitHub",
   },
   {
-    name: "X",
-    url: "https://twitter.com/nixlab_in",
-    icon: faXTwitter,
-    text: "nixlab_in",
-  },
-  {
-    name: "Instagram",
-    url: "https://instagram.com/nixlab.in",
-    icon: faInstagram,
-    text: "nixlab.in",
+    name: "Md Raziul Hasan Nayon",
+    url: "https://github.com/xxxxx",
+    icon: faGithub,
+    text: "Md Raziul Hasan Nayon's GitHub",
   },
 
   {
-    name: "GitHub",
-    url: "https://github.com/nixlab-technologies",
+    name: "Nihsat Bin Md Harun Tamim",
+    url: "https://github.com/xxxxxxx",
     icon: faGithub,
-    text: "nixlab-technologies",
+    text: "Nihsat Bin Md Harun Tamim's GitHub",
   },
 ];
 
