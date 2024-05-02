@@ -28,17 +28,17 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "NixLab Technologies - an Indian Software Development Company",
+  title: "Cooking By Sight",
   description:
-    "NixLab Technologies is a software development company based in the India.",
+    "Generate Recipie From Food Images Using Cooking By Sight",
   keywords: [
-    "NixLab",
-    "nixlab",
-    "nixlab technologies",
-    "nixlab tech",
+    "CBS",
+    "cooking by sight",
+    "deep learning",
+    "meaching learning",
     "web development",
-    "android app development",
-    "iOS app development",
+    "food",
+    "project",
   ],
   robots: {
     index: true,

@@ -23,19 +23,7 @@ const footerMenu: INavMenuItem[][] = [
   ],
 
   [
-    {
-      id: "career",
-      title: "Career",
-      path: "/career",
-      section: "career",
-    },
-    {
-      id: "testimonials",
-      title: "Testimonials",
-      path: "/#testimonials",
-      section: "testimonials",
-    },
-    {
+   {
       id: "faq",
       title: "FAQ",
       path: "/#faq",
@@ -44,13 +32,6 @@ const footerMenu: INavMenuItem[][] = [
   ],
 
   [
-    {
-      id: "privacy-policy",
-      title: "Privacy Policy",
-      path: "/privacy-policy",
-      section: "privacy-policy",
-    },
-    
     {
       id: "contact",
       title: "Contact Us",

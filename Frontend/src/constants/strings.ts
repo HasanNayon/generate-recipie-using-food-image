@@ -23,8 +23,8 @@ class Strings {
   static primaryEmailLink = "mailto:nkr.nikhil.nkr@gmail.com";
   static primaryEmail = "nkr.nikhil.nkr@gmail.com";
 
-  static fullName = "Nikhil Rajput";
-  static shortName = "nixrajput";
+  static fullName = "Cooking By Sight";
+  static shortName = "CBS";
 }
 
 export default Strings;
