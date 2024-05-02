@@ -1,1 +1,4 @@
 /venv 
+
+/.next/
+/node_modules/
