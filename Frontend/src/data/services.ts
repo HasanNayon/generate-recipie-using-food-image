@@ -2,45 +2,37 @@ import { IServiceItem } from "@/types";
 
 const services: IServiceItem[] = [
   {
-    title: "Mobile App Development",
-    icon: "/icons/mobile-dev.svg",
+    title: "6000+ Datasets",
+    icon: "/icons/database.svg",
     shortDescription:
-      "We specialize in crafting native and cross-platform apps for iOS and Android, ensuring seamless performance and engaging user interfaces.",
+      "Unlock the culinary possibilities with our cutting-edge AI-powered recipe generation service, fueled by a robust database of over 6000 datasets. ",
     description:
-      "Turn your ideas into captivating mobile experiences with our expert mobile app development services. From concept to launch, we specialize in crafting native and cross-platform apps for iOS and Android, ensuring seamless performance and engaging user interfaces.",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   },
   {
-    title: "Web Development",
-    icon: "/icons/software-dev.svg",
+    title: "Upload your Image",
+    icon: "/icons/image.svg",
     shortDescription:
-      "We deliver tailored solutions that are visually stunning, user-friendly, and optimized for search engines.",
+      "Elevate your dining experience with our seamless 'Upload Your Image' feature. Simply snap a photo of your culinary creation, and let our AI do the rest",
     description:
-      "Establish a strong online presence with our professional web development services. Whether you need a simple brochure site or a complex e-commerce platform, we deliver tailored solutions that are visually stunning, user-friendly, and optimized for search engines.",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   },
   {
-    title: "Backend Development",
-    icon: "/icons/backend-dev.svg",
+    title: "Let AI Generate Recipes for you",
+    icon: "/icons/ai.svg",
     shortDescription:
-      "We design and implement efficient database structures, develop robust APIs, and configure servers to ensure optimal performance and security.",
+      "Experience the future of cooking with our 'Let AI Generate Recipes for You' service. Sit back, relax, and let our advanced AI algorithms whip up delectable recipes for you. Whether you're a culinary enthusiast or a busy professional, our AI-powered platform delivers personalized recipes tailored to your tastes, making meal planning effortless and enjoyable.",
     description:
-      "Enhance the performance and scalability of your digital applications with our expert backend development services. We design and implement efficient database structures, develop robust APIs, and configure servers to ensure optimal performance and security.",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   },
   {
-    title: "Dedicated Development Team",
-    icon: "/icons/dev-team.svg",
+    title: "Get your Recipe",
+    icon: "/icons/food.svg",
     shortDescription:
-      "We offer flexible engagement models to meet your project requirements and deliver exceptional results.",
+      "With every information you get from AI, access your personalized culinary masterpiece crafted by our AI. Say goodbye to recipe hunting and hello to culinary excellence. Start cooking your dreams today!",
     description:
-      "Augment your in-house team or outsource your entire project to our dedicated development team. With a pool of skilled professionals, we offer flexible engagement models to meet your project requirements and deliver exceptional results.",
-  },
-  {
-    title: "Product Strategy",
-    icon: "/icons/strategy-dev.svg",
-    shortDescription:
-      "Our product strategy services help you define and refine your product vision, ensuring alignment with your business goals.",
-    description:
-      "Shape the future of your digital products with our strategic guidance. Our product strategy services help you define and refine your product vision, ensuring alignment with your business goals and user needs throughout the entire product lifecycle.",
-  },
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  }
 ];
 
 export default services;

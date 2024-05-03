@@ -13,7 +13,7 @@ const HomeSection2 = ({ id }: { id?: string }) => {
     >
       <ConstraintedBox classNames="p-4 py-16">
         <SectionTitle title="Our Services">
-          Our AI Solutions
+          What We Do
         </SectionTitle>
 
         <GridBox classNames="justify-items-center sm:grid-cols-2 lg:grid-cols-3 mt-16">

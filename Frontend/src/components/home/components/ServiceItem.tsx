@@ -56,10 +56,7 @@ const ServiceItem = ({
             <Balancer>{data.shortDescription}</Balancer>
           </p>
 
-          <AppFilledButton
-            label="Learn More"
-            classNames="mx-auto mt-8 min-w-[10rem]"
-          />
+          
         </Column>
       </Column>
     </CardBox>
