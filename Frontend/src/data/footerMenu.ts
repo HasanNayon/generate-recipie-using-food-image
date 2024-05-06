@@ -7,21 +7,16 @@ const footerMenu: INavMenuItem[][] = [
       title: "Home",
       path: "/",
       section: "home",
-    },
+    }
+  ],
+  [
     {
       id: "about",
       title: "About Us",
       path: "/aboutus",
       section: "about",
-    },
-    {
-      id: "team",
-      title: "Team",
-      path: "/#team",
-      section: "team",
-    },
+    }
   ],
-
   [
     {
       id: "contact",
