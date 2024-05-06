@@ -25,6 +25,11 @@ export enum RepoType {
   Private,
 }
 
+export enum TeamType {
+  Active,
+  Chilling,
+}
+
 export enum ProjectType {
   Personal,
   JobWork,
@@ -45,7 +50,26 @@ export interface IProjectItem {
   about?: string;
 }
 
+export interface ITeamItem {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  TeamType: TeamType;
+  githubUrl?: string;
+  url?: string;
+  tags?: string[];
+  about?: string;
+}
+
 export interface IServiceItem {
+  title: string;
+  icon: string;
+  shortDescription: string;
+  description: string;
+}
+
+export interface IAboutItem {
   title: string;
   icon: string;
   shortDescription: string;

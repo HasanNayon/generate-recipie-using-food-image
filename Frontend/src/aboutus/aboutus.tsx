@@ -3,15 +3,7 @@ import ConstraintedBox from "@/components/core/ConstraintedBox";
 import ResponsiveBox from "@/components/core/ResponsiveBox";
 import GridBox from "@/components/core/GridBox";
 import Column from "@/components/core/Column";
-import cbs from "../app/cbs";
-
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      cbs: any;
-    }
-  }
-}
+import bannerElement from "@/components/home/components/BannerElement";
 
 const aboutUs = ({ id }: Readonly<{ id?: string }>) => {
   return (
@@ -38,7 +30,7 @@ const aboutUs = ({ id }: Readonly<{ id?: string }>) => {
               </Balancer>
             </p>
           </Column>
-          <cbs />
+          {/* <bannerElement /> */}
         </GridBox>
       </ConstraintedBox>
     </ResponsiveBox>
