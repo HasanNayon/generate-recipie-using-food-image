@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function GenerateAi() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
@@ -16,36 +16,41 @@ function GenerateAi() {
 
   const handlePredict = async () => {
     if (!selectedFile) {
-      alert('Please select an image first');
+      alert("Please select an image first");
       return;
     }
 
     const formData = new FormData();
-    formData.append('file', selectedFile);
+    formData.append("file", selectedFile);
 
     try {
-      const response = await fetch('http://localhost:8501', {
-        method: 'POST',
-        body: formData
+      const response = await fetch("http://localhost:8501", {
+        method: "POST",
+        body: formData,
       });
-      
+
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        throw new Error("Network response was not ok");
       }
 
       const data = await response.json();
       console.log("Here is maal: ", data.prediction);
       // setPrediction(data.prediction);
     } catch (error) {
-      console.error('There was an error!', error);
+      console.error("There was an error!", error);
     }
   };
 
   return (
-    <div>
-      <input type="file" onChange={handleFileChange} />
-      <button onClick={handlePredict}>Predict</button>
-      {/* Render prediction here */}
+    <div style={{ width: '100%' }}>
+      <iframe
+        title="External Site"
+        src="http://localhost:8501/"
+        width="100%"
+        height="800"
+        frameBorder="0"
+        allowFullScreen
+      ></iframe>
     </div>
   );
 }
