@@ -15,11 +15,6 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/icons/python.svg",
       },
-      {
-        title: "SQL",
-        level: SkillLevel.Expert,
-        icon: "/icons/sql.svg",
-      },
     ],
   },
   {
@@ -41,9 +36,9 @@ const skills: ISkillListItem[] = [
         icon: "/icons/html.svg",
       },
       {
-        title: "CSS",
+        title: "Tailwind CSS",
         level: SkillLevel.Intermediate,
-        icon: "/icons/css.svg",
+        icon: "/icons/tailwind.svg",
       }
     ],
   },
@@ -56,9 +51,9 @@ const skills: ISkillListItem[] = [
         icon: "/icons/nodejs.svg",
       },
       {
-        title: "Python Flask",
+        title: "Streamlit",
         level: SkillLevel.Expert,
-        icon: "/icons/flask.svg",
+        icon: "/icons/streamlit.svg",
       },
       {
         title: "Jupyter Framework",
@@ -81,7 +76,7 @@ const skills: ISkillListItem[] = [
     title: "Database Management",
     items: [
       {
-        title: "MySQL",
+        title: "LocalHost",
         level: SkillLevel.Begginer,
         icon: "/icons/sql.svg",
       },

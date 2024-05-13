@@ -21,8 +21,16 @@ const footerMenu: INavMenuItem[][] = [
     {
       id: "contact",
       title: "Contact Us",
-      path: "/#contact",
+      path: "/contact",
       section: "contact",
+    },
+  ],
+  [
+    {
+      id: "generateai",
+      title: "Generate Recipe",
+      path: "/generateai",
+      section: "generateai",
     },
   ],
 ];

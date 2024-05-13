@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Balancer } from "react-wrap-balancer";
 import CardBox from "@/components/core/CardBox";
 import Column from "@/components/core/Column";
-import AppFilledButton from "@/components/common/FilledButton";
 
 const ServiceItem = ({
   data,

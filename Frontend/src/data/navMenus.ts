@@ -8,11 +8,23 @@ const navMenus: INavMenuItem[] = [
     section: "home",
   },
   {
-    id: "team",
-    title: "Team",
-    path: "/#team",
-    section: "team",
+    id: "contact",
+    title: "Contact Us",
+    path: "/contact",
+    section: "contact",
   },
+  {
+    id: "about",
+    title: "About Us",
+    path: "/about",
+    section: "about",
+  },
+  {
+    id: "generateai",
+    title: "Generate Recipe",
+    path: "/generateai",
+    section: "generateai",
+  }
 ];
 
 export default navMenus;

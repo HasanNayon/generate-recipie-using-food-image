@@ -2,10 +2,10 @@ import { IServiceItem } from "@/types";
 
 const services: IServiceItem[] = [
   {
-    title: "6000+ Datasets",
+    title: "80+ Datasets",
     icon: "/icons/database.svg",
     shortDescription:
-      "Unlock the culinary possibilities with our cutting-edge AI-powered recipe generation service, fueled by a robust database of over 6000 datasets. ",
+      "Unlock the culinary possibilities with our cutting-edge AI-powered recipe generation service, fueled by a robust database of over 80+ South Asian Recipe datasets. ",
     description:
       "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   },
