@@ -2,8 +2,6 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 
-
-
 #Tensorflow Model Prediction
 def model_prediction(test_image):
     model = tf.keras.models.load_model("image_to_food_model1.h5")
@@ -13,16 +11,9 @@ def model_prediction(test_image):
     predictions = model.predict(input_arr)
     return np.argmax(predictions) #return index of max element
 
-
 #Sidebar
 st.sidebar.title("Dashboard")
 app_mode = st.sidebar.selectbox("Select Page",["Prediction"])
-
-# #Main Page
-# if(app_mode=="Home"):
-#     st.header("Food Recipe")
-#     image_path = "home_page.jpg"
-#     st.image(image_path)
 
 
 #Prediction Page
@@ -45,5 +36,3 @@ if(app_mode=="Prediction"):
         for i in content:
             label.append(i[:-1])
         st.success("Model is Predicting it's a {}".format(label[result_index]))
-  
-
