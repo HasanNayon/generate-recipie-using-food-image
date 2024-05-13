@@ -1,15 +1,8 @@
 import React from "react";
-import { Suspense } from "react";
-import PageBox from "@/components/core/PageBox";
+import ContactUs from "@/contact/contact";
 
-const contact = ({ id }: Readonly<{ id?: string }>) => {
-    return (
-        <PageBox>
-            <Suspense>
-                
-            </Suspense>
-        </PageBox>
-    );
+const contact = () => {
+  return <ContactUs />;
 };
 
 export default contact;

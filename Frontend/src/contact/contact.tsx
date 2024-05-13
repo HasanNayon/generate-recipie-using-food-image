@@ -1,86 +1,74 @@
-// import React from "react"; 
-// import { Container, Row, Col } from "react-bootstrap";
+import React from "react";
 
-// import { contactConfig } from "../contact-config";
-
-// // import { ContentConfig } from "tailwindcss/types/config";
-// // import content
-
-// export default function ContactUs() {
-  
-
-//   return (
-//       <Container>
-     
-//         <Row className="mb-5 mt-3">
-//           <Col lg="8">
-//             <h1 className="display-4 mb-4">Contact Me</h1>
-//             <hr className="t_border my-4 ml-0 text-left" />
-//           </Col>
-//         </Row>
-//         <Row className="sec_sp">
-//           <Col lg="5" className="mb-5">
-//             <h3 className="color_sec py-4">Get in touch</h3>
-//             <address>
-//               <strong>Email:</strong>{" "}
-//               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-//                 {contactConfig.YOUR_EMAIL}
-//               </a>
-//               <br />
-//               <br />
-//               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
-//                 <p>
-//                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
-//                 </p>
-//               ) : (
-//                 ""
-//               )}
-//             </address>
-//             <p>{contactConfig.description}</p>
-//           </Col>
-//           <Col lg="7" className="d-flex align-items-center">
-//             <form  className="contact__form w-100">
-//               <Row>
-//                 <Col lg="6" className="form-group">
-//                   <input
-//                     className="form-control"
-//                     id="name"
-//                     name="name"
-//                     placeholder="Name" 
-//                     type="text"
-//                     required 
-//                   />
-//                 </Col>
-//                 <Col lg="6" className="form-group">
-//                   <input
-//                     className="form-control rounded-0"
-//                     id="email"
-//                     name="email"
-//                     placeholder="Email"
-//                     type="email" 
-//                     required 
-//                   />
-//                 </Col>
-//               </Row>
-//               <textarea
-//                 className="form-control rounded-0"
-//                 id="message"
-//                 name="message"
-//                 placeholder="Message"
-//                 rows="5" 
-//                 required
-//               ></textarea>
-//               <br />
-//               <Row>
-//                 <Col lg="12" className="form-group">
-//                   <button className="btn ac_btn" type="submit"> 
-//                   Send
-//                   </button>
-//                 </Col>
-//               </Row>
-//             </form>
-//           </Col>
-//         </Row>
-//       </Container>
-//   );
-// }
+export default function ContactUs() {
+  return (
+    <div className="grid sm:grid-cols-12 grid-cols-1 mt-[5rem] bg-neutral-200">
+      <div className="sm:col-span-7 col-span-1 flex flex-col justify-center space-y-12 mx-auto">
+        <h1 className="text-5xl font-bold text-neutral-800">Contact Us</h1>
+        <p className="text-xl text-neutral-800">
+          Need to get in touch with us? Fill out the form and we will get back
+          to you ASAP!
+        </p>
+      </div>
+      <div className="sm:col-span-5 col-span-1 drop-shadow-lg bg-white p-12 my-12 mx-8 h-fit rounded-lg">
+        <form className="flex flex-col text-neutral-800 space-y-6">
+          <div className="flex space-x-4">
+            <div>
+              <label htmlFor="first-name" className="font-bold">
+                First name*
+              </label>
+              <input
+                className="w-full bg-neutral-200 h-[3rem] rounded-lg border-[1px] border-neutral-400"
+                type="text"
+                id="first-name"
+                name="first-name"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="last-name" className="font-bold">
+                Last name*
+              </label>
+              <input
+                className="w-full bg-neutral-200 h-[3rem] rounded-lg border-[1px] border-neutral-400"
+                type="text"
+                id="last-name"
+                name="last-name"
+                required
+              />
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <label htmlFor="email" className="font-bold">
+              Email*
+            </label>
+            <input
+              className="bg-neutral-200 h-[3rem] rounded-lg border-[1px] border-neutral-400"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="message" className="font-bold">
+              What can we help you with?
+            </label>
+            <textarea
+              className="w-full bg-neutral-200 p-2 rounded-lg border-[1px] border-neutral-400"
+              id="message"
+              name="message"
+              rows={8}
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="bg-purple-600 px-4 py-2 rounded-lg text-white font-semibold hover:bg-purple-400 transition duration-300 ease-in-out"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
