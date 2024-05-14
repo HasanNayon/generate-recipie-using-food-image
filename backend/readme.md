@@ -27,6 +27,7 @@ To use "Cooking by Sight," follow these simple steps:
 - Make sure you have Python installed on your system.
 - Install the required dependencies using `pip install -r requirements.txt`.
 - Run the Streamlit app using `streamlit run main.py`.
+- You will be redirected to the page `http://localhost:8501`
 - Follow the instructions on the Streamlit interface to upload an image and generate a recipe.
 
 ## Technologies Used

@@ -98,4 +98,5 @@ This frontend development guide is part of the "Cooking by Sight" project and is
 
 ## Contact
 
-For questions or inquiries about frontend development for "Cooking by Sight," please contact [mohammadhamim@stu.zzu.edu.cn](mailto:mohammadhamim@stu.zzu.edu.cn).
+For questions or inquiries about "Cooking by Sight," please contact [mohammadhamim@stu.zzu.edu.cn](mailto:mohammadhamim@stu.zzu.edu.cn) or [raziulhasannayon@stu.zzu.edu.cn](mailto:raziulhasannayon@stu.zzu.edu.cn) or [nishatbinmdharun@stu.zzu.edu.cn](mailto:nishatbinmdharun@stu.zzu.edu.cn).
+
