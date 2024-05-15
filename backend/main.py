@@ -34,7 +34,7 @@ app_mode = st.sidebar.selectbox("Select Page", ["Prediction"])
 
 # Prediction Page
 if app_mode == "Prediction":
-    st.header("Model Prediction")
+    st.header("Generate Your Favorite food's Recipe!")
     st.write("Note: If you provide invalid image, the prediction will be wrong.")
     test_image = st.file_uploader("Choose an Image:")
     st.write("File Supported:  *.jpg,  *.jpeg,  *.png")
@@ -44,7 +44,7 @@ if app_mode == "Prediction":
 
 
         # Predict button
-        if st.button("Predict"):
+        if st.button("Predict & Show precedure"):
             # st.snow()
             st.write("Our Prediction")
             result_index = model_prediction(test_image)
@@ -55,7 +55,7 @@ if app_mode == "Prediction":
             label = [i.strip() for i in content]
             
             predicted_label = label[result_index]
-            st.success("Model is Predicting it's a {}".format(predicted_label))
+            st.success("We are Predicting, the image you gave us is a {}".format(predicted_label))
             
             # Get the recipe for the predicted label
             procedure, suitable_for_diabetic, calorie, cooking_time = get_recipe(predicted_label, recipe_data)
