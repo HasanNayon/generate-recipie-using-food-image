@@ -5,7 +5,7 @@ const FooterCopyright = () => {
   return (
     <Column classNames="mt-8 justify-center items-center mx-auto">
       <p className="text-base/6 text-center mx-auto">
-        Built with React, Next.js, Python Flask, TensorFlow, OpenCV.
+        Built with React, Next.js, Python Streamlit, TensorFlow.
       </p>
       <p className="text-sm/6 text-center mx-auto">
         Copyright © 2024{" "}

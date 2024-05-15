@@ -65,11 +65,6 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Begginer,
         icon: "/icons/tensorflow.svg",
       },
-      {
-        title: "OpenCV Framework",
-        level: SkillLevel.Begginer,
-        icon: "/icons/opencv.svg",
-      }
     ],
   },
   {

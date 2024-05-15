@@ -12,16 +12,16 @@ const socialLinks: ISocialLinkItem[] = [
   },
   {
     name: "Md Raziul Hasan Nayon",
-    url: "https://github.com/xxxxx",
+    url: "https://www.linkedin.com/in/md-raziul-hasan-nayon/",
     icon: faLinkedin,
     text: "Md Raziul Hasan Nayon's GitHub",
   },
 
   {
-    name: "Nihsat Bin Md Harun Tamim",
+    name: "Nishat Bin Md Harun Tamim",
     url: "https://github.com/xxxxxxx",
     icon: faLinkedin,
-    text: "Nihsat Bin Md Harun Tamim's GitHub",
+    text: "Nishat Bin Md Harun Tamim's GitHub",
   },
 ];
 

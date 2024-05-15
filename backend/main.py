@@ -30,25 +30,28 @@ def get_recipe(predicted_class, recipe_data):
 
 # Sidebar
 st.sidebar.title("Dashboard")
-app_mode = st.sidebar.selectbox("Select Page", ["Home", "Prediction"])
+app_mode = st.sidebar.selectbox("Select Page", ["Prediction"])
 
-# Main Page
-if app_mode == "Home":
-    st.header("Food Recipe")
-    image_path = "home_page.jpg"
-    st.image(image_path)
+# # Main Page
+# if app_mode == "Home":
+#     st.header("Food Recipe")
+#     image_path = "home_page.jpg"
+#     st.image(image_path)
 
 # Prediction Page
-elif app_mode == "Prediction":
+if app_mode == "Prediction":
     st.header("Model Prediction")
+    st.write("Note: If you provide invalid image, the prediction will be wrong.")
     test_image = st.file_uploader("Choose an Image:")
+    st.write("File Supported: .jpg, .jpeg, .png")
     if test_image is not None:
         if st.button("Show Image"):
             st.image(test_image, width=4, use_column_width=True)
 
+
         # Predict button
         if st.button("Predict"):
-            st.snow()
+            # st.snow()
             st.write("Our Prediction")
             result_index = model_prediction(test_image)
             
