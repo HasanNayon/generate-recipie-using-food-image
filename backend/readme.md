@@ -25,10 +25,15 @@ To use "Cooking by Sight," follow these simple steps:
 ## Instructions
 
 - Make sure you have Python installed on your system.
+- Set up a virtual environment using `python3 -m venv myenv` (replace `myenv` with your desired environment name).
+- Activate the virtual environment:
+  - On Windows: `myenv\Scripts\activate`
+  - On macOS and Linux: `source myenv/bin/activate`
 - Install the required dependencies using `pip install -r requirements.txt`.
 - Run the Streamlit app using `streamlit run main.py`.
-- You will be redirected to the page `http://localhost:8501`
+- You will be redirected to the page `http://localhost:8501`.
 - Follow the instructions on the Streamlit interface to upload an image and generate a recipe.
+
 
 ## Technologies Used
 

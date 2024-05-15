@@ -17,7 +17,7 @@ const HomeSection1 = ({ id }: Readonly<{ id?: string }>) => {
           <Column classNames="w-full !justify-center items-center lg:items-start">
             <p className="text-4xl/tight md:text-5xl/tight xl:text-6xl/tight font-bold text-[var(--whiteColor)] drop_in text-center lg:text-start">
               <Balancer>
-                Generate Recipie From Food Images
+                Generate Recipe From Food Images
               </Balancer>
             </p>
 

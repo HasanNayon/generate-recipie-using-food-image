@@ -1,80 +1,80 @@
-adhirasam
-aloo_gobi
-aloo_matar
-aloo_methi
-aloo_shimla_mirch
-aloo_tikki
-anarsa
-ariselu
-bandar_laddu
-basundi
-bhatura
-bhindi_masala
-biryani
-boondi
-butter_chicken
-chak_hao_kheer
-cham_cham
-chana_masala
-chapati
-chhena_kheeri
-chicken_razala
-chicken_tikka
-chicken_tikka_masala
-chikki
-daal_baati_churma
-daal_puri
-dal_makhani
-dal_tadka
-dharwad_pedha
-doodhpak
-double_ka_meetha
-dum_aloo
-gajar_ka_halwa
-gavvalu
-ghevar
-gulab_jamun
-imarti
-jalebi
-kachori
-kadai_paneer
-kadhi_pakoda
-kajjikaya
-kakinada_khaja
-kalakand
-karela_bharta
-kofta
-kuzhi_paniyaram
-lassi
-ledikeni
-litti_chokha
-lyangcha
-maach_jhol
-makki_di_roti_sarson_da_saag
-malapua
-misi_roti
-misti_doi
-modak
-mysore_pak
-naan
-navrattan_korma
-palak_paneer
-paneer_butter_masala
-phirni
-pithe
-poha
-poornalu
-pootharekulu
-qubani_ka_meetha
-rabri
-ras_malai
-rasgulla
-sandesh
-shankarpali
-sheer_korma
-sheera
-shrikhand
-sohan_halwa
-sohan_papdi
-sutar_feni
-unni_appam
+Adhirasam
+Aloo Gobi
+Aloo Matar
+Aloo Methi
+Aloo Shimla Mirch
+Aloo Tikki
+Anarsa
+Ariselu
+bandar laddu
+Basundi
+Bhatura
+Bhindi Masala
+Biryani
+Boondi
+Butter Chicken
+Chak Hao Kheer
+Cham Cham
+Chana Masala
+Chapati
+Chhena Kheeri
+Chicken Razala
+Chicken Tikka
+Chicken Tikka Masala
+Chikki
+Daal Baati Churma
+Daal Puri
+Dal Makhani
+Dal Tadka
+Dharwad Pedha
+Doodhpak
+Double Ka Meetha
+Dum Aloo
+Gajar Ka Halwa
+Gavvalu
+Ghevar
+Gulab Jamun
+Imarti
+Jalebi
+Kachori
+Kadai Paneer
+Kadhi Pakoda
+Kajjikaya
+Kakinada Khaja
+Kalakand
+Karela Bharta
+Kofta
+Kuzhi Paniyaram
+Lassi
+Ledikeni
+Litti Chokha
+Lyangcha
+Maach Jhol
+Makki Di Roti Sarson Da Saag
+Malapua
+Misi Roti
+Misti Doi
+Modak
+Mysore Pak
+Naan
+Navrattan Korma
+Palak Paneer
+Paneer Butter Masala
+Phirni
+Pithe
+Poha
+Poornalu
+Pootharekulu
+Qubani Ka Meetha
+Rabri
+Ras Malai
+Rasgulla
+Sandesh
+Shankarpali
+Sheer Korma
+Sheera
+Shrikhand
+Sohan Halwa
+Sohan Papdi
+Sutar Feni
+Unni Appam
