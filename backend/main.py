@@ -29,21 +29,15 @@ def get_recipe(predicted_class, recipe_data):
         return "Recipe not found.", "", "", ""
 
 # Sidebar
-st.sidebar.title("Dashboard")
+st.sidebar.title("Cooking By Sight")
 app_mode = st.sidebar.selectbox("Select Page", ["Prediction"])
-
-# # Main Page
-# if app_mode == "Home":
-#     st.header("Food Recipe")
-#     image_path = "home_page.jpg"
-#     st.image(image_path)
 
 # Prediction Page
 if app_mode == "Prediction":
     st.header("Model Prediction")
     st.write("Note: If you provide invalid image, the prediction will be wrong.")
     test_image = st.file_uploader("Choose an Image:")
-    st.write("File Supported: .jpg, .jpeg, .png")
+    st.write("File Supported:  *.jpg,  *.jpeg,  *.png")
     if test_image is not None:
         if st.button("Show Image"):
             st.image(test_image, width=4, use_column_width=True)
@@ -71,7 +65,7 @@ if app_mode == "Prediction":
                 st.write(procedure)
                 st.subheader("Suitable for Diabetic Patients to Eat:")
                 st.write(suitable_for_diabetic)
-                st.subheader("Calorie of the food:")
+                st.subheader("Calorie of the food(/100g):")
                 st.write(calorie)
                 st.subheader("Approximate time for cooking (Minute):")
                 st.write(cooking_time)

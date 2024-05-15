@@ -17,22 +17,22 @@ const team: ITeamItem[] = [
     title: "Md Raziul Hasan Nayon",
     description:
       "Machine Learning || Software Engineering Student at ZZU",
-    icon: "/skills/react.svg",
+    icon: "/icons/nayon.svg",
     TeamType: TeamType.Chilling,
     githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
     url: "https://nixlab-shop.cyclic.app",
     tags: ["Machine Learning", "Deep Learning", "Python", "Data Structures"],
   },
   {
-    id: "wqerwqtwert",
-    title: "qwretqwer",
+    id: "Tamim",
+    title: "Nishat Bin Md Harun",
     description:
-      "A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.",
-    icon: "/skills/flutter.svg",
-    TeamType: TeamType.Active,
+      "Dynamic Software Engineer, Currently study Software Engineering at Zhengzhou University.",
+    icon: "/icons/tamim.svg",
+    TeamType: TeamType.Chilling,
     githubUrl: "https://github.com/nixrajput/video-calling-app-flutter",
     url: "https://www.nixlab.co.in/projects/livebox-app",
-    tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
+    tags: ["C", "Java", "DSA", "HTML", "CSS", "javascript"],
   }
 ];
 
